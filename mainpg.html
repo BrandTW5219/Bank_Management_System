@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>歡迎使用ATM</title>
+<style>
+        html 
+	{
+            height:100%;
+        }
+        body 
+	{
+            background-image:url(photograph/pic_main.jpg);
+            background-repeat:no-repeat;
+            background-attachment:fixed;
+            background-position:top;
+            background-size:cover;
+        }
+</style>
+</head>
+<body>
+<center>
+	<h1><font color="#FFFFFF">歡迎使用自動櫃員機服務</font></h1>
+	<h3><font color="#FFFF00">請點選以下功能</font></h3>
+	<input name="accCreate" type="button" value="帳戶建立與管理" onclick="Javascript:location.href='manageAcc.php'">
+	<input name="accWithdraw" type="button" value="帳戶存款與提款" onclick="Javascript:location.href='savingAcc.php'">
+	<input name="accCheck" type="button" value="帳戶餘額查詢" onclick="Javascript:location.href='checkAcc.php'">
+</center>
+</body>
+</html>
